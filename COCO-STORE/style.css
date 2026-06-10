@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#d6d6c8;
+}
+
+.container{
+    max-width:430px;
+    margin:auto;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+.banner{
+    width:100%;
+    border-radius:10px;
+}
+
+h2{
+    margin-top:25px;
+}
+
+.gallery{
+    display:flex;
+    gap:10px;
+    overflow-x:auto;
+}
+
+.gallery img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.buy-btn{
+    display:block;
+    text-align:center;
+    background:black;
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:bold;
+    padding:15px;
+    margin-top:40px;
+    border-radius:10px;
+}
